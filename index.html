@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Just Entertainment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+
+    <script>
+        window.addEventListener('load', (event) => {
+            var x = document.getElementById("main");
+            var head = document.getElementById("head");
+            x.style.marginTop = head.clientHeight + "px";
+        });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+    
+
+</head>
+
+<body>
+    <header class="pt-1 fixed-top" id="head">
+        <nav class="navbar navbar-expand-lg container navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="">ANASAYFA <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">GALERİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisimegec">İLETİŞİM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bizekatil">ARAMIZA KATIL</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+        <div class="position-relative py-0">
+            <img class="img-fluid w-100 anares" src="img/anaas.png" alt="">
+            <div class="w-100">
+                <div class="container d-flex justify-content-between">
+                    <div class="logo position-absolute">
+                        <img class="img-fluid" src="img/justbeyazlogo.png" alt="">
+                    </div>
+                    <div class="igec position-absolute">
+                        <h2>Partiye hazır mısın?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="galeri" class="container galeri">
+        <h1>Fotoğraflarımız</h1>
+        <div class="galleria">
+            <img src="foto/photo1-min.jpg">
+            <img src="foto/photo2-min.jpg">
+            <img src="foto/photo3-min.jpg">
+            <img src="foto/photo4-min.jpg">
+            <img src="foto/photo6-min.jpg">
+            <img src="foto/photo7-min.jpg">
+            <img src="foto/photo8-min.jpg">
+            <img src="foto/photo9-min.jpg">
+            <img src="foto/photo11-min.jpg">
+            <img src="foto/photo27-min.jpg">
+            <img src="foto/photo30-min.jpg">
+            <img src="foto/photo38-min.jpg">
+            
+        </div>
+        <script>
+            (function() {
+                Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                Galleria.run('.galleria');
+            }());
+        </script>
+    </section>
+    <div class="parallax">
+        <div class="arkasiyah">
+            <section id="iletisimegec" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-auto text-center pbaslik">
+                        <h1>BİZİMLE PARTİ VER</h1>
+                        <p>2021 yılına bomba gibi hazırlanan Just Entertainment ile sen de harika etkinlikler düzenlemek istiyorsan iletişim bölümünden bize ulaş!</p>
+                        <p> </p>
+                        <p>
+                            Bize kaç kişilik bir parti istediğini, konseptini ve nasıl istediğini, kısacası aklında ne olduğunu anlat, senin partini birlikte planlayalım!
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h2 class="mt-3 text-center">Parti fikrini bizimle paylaş!</h2>
+                        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSf4mkrg7MZhnYckAPwYqJmPkmjYSF-ojZuM_i5PDZhGCQpgDQ/formResponse" id="form1" class="partiform d-flex flex-column">
+                            <label for="entry.559352220">Ad Soyad</label>
+                            <input type="text" aria-label="Ad Soyad" name="entry.559352220" value="" required="">
+                            <label for="entry.443565211">E-posta</label>
+                            <input type="email" aria-label="E-posta" name="entry.443565211" value="" required="">
+                            <label for="entry.1751303409">Aklında ne var?</label>
+                            <textarea aria-label="Aklında ne var?" required="" name="entry.1751303409"></textarea>
+                            <button type="submit" form="form1" value="Submit">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+
+    <section id="hakkimizda" class="container bkimiz text-center">
+        <h1>BİZ KİMİZ?</h1>
+        <p>Just Entertainment, Nisan 2014 tarihinde çalışmalarına "Break The Rules" felsefesi ile başlamış ve bugüne kadar yaptığı işler ve yüksek marketing çalışmaları ile İstanbul elektronik müzik piyasasında adını en iyiler arasına yazdırmış bir organizasyon topluluğudur. Just Entertainment, #BreakTheRules ve #ElectricJourney gibi partilerin yaratıcısıdır. Şu ana kadar; Funkerman, Emrah İş, Aras Ofluoğlu, Ahmet Şendil, Baha, Mert Sesli, Vesim İpek, Cem Munar, Furkan Kurt, Mete Benli, Furkan Abaday, Emre Akbal, DROBZ, Miraç Baş, Tolga Börek gibi bir çok Elektronik Müzik piyasasında isim yapmış ve yapmakta olan DJ ler ile beraber çalışmıştır. Just Entertainment 2016 - 2017 yılları arasında etkinliklere vermiş olduğu aranın ardından 2018 yılına bomba gibi bir giriş yapıp aynı sene içinde #BreakTheRules3, #BreakTheRules4 ve #BreakTheRules5 serisiyle piyasada hareketlilik yarattıktan sonra, 2019 yılının başında #BreakTheRules6 yı gerçekleştirdi. 2019 yılının sonuna kadar sessiz kalan Just Entertainment 2020 yılına hazırlıklarını sürdürürken araya giren pandemi sebebiyle 2020 yılını da tamamen sessiz geçirdi. Just Entertainment, pandemi ve yasaklar sonrası 2021 yılının Ağustos ayında Trick or Rave etkinliğinde sevenleriyle yaklaşık 2 yıl aradan sonra tekrar buluştu. Bu etkinlikten 1 hafta sonra Limoncello' da 'Jungle' etkinliğine ev sahipliği yapan Just Entertainment piyasada artık eskisinden daha da hareketli olmaya kararlı. Ekibini ve çalışma arkadaşlarını artırarak ailesini genişletmek isteyen Just Entertainment ailesine sen de katılmak istiyorsan aşağıdaki "Ekibimize Katıl" butonuna tıklayarak formu doldurabilirsin!</p>
+    </section>
+    <div class="parallax">
+        <div class="arkasiyah">
+            <section id="bizekatil" class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img class="w-75 d-block mx-auto img-fluid" src="img/jwantsyou.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 text-center bkatil">
+                        <h2> Sen de ekibimize katılmak ister misin?</h2>
+                        <p>Just Entertainment ailesine sende katılmak istiyorsan, ekip başvuru formunu doldurmayı unutma!</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFAd5WaEDUE-IuvT5jarCTtmwQNU1Gjk-UyKdGiEn_pjDn8w/viewform?usp=sf_link">Ekibimize Katıl</a>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <footer class="container">
+        <div class="row py-4 d-flex justify-content-center">
+            <div class="col-sm-12 col-md-4 col-12 iletisim">
+
+                <div class="pb-4 d-block">
+                    <h5>Adres</h5>
+                    <p>Doğu Mahallesi Lokman Hekim Caddesi Aralık Sokak No:8 </p>
+                    <p>Daire: 2 Pendik/İstanbul</p>
+                </div>
+                <div>
+                    <h5>İletişim</h5>
+                    <p>E-mail: justonurozen@gmail.com</p>
+                    <p>Telefon: +90 536 366 26 49</p>
+                </div>
+                <div class="w-75 d-flex justify-content-between mx-auto ikonlar">
+                    <a href="https://www.facebook.com/JustEntGroup/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.youtube.com/channel/UCfIujF8Vnvu4EIw7y_f1GaQ"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/justgroup/"><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 fb">
+                <div class="fb-page" data-href="https://www.facebook.com/justentgroup" data-tabs="timeline" data-width="320" data-height="320" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/justentgroup" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/justentgroup">Just Entertainment</a></blockquote>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <div class="foot">
+            <div class="container">
+                <p>Copyright © 2019 Just Entertainment - All Rights Reserved</p>
+                <p>Designed by Eylem Ece Kebabcı</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v5.0"></script>
+
+</html>

@@ -1,0 +1,314 @@
+a {
+    color: ghostwhite;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+* {
+    font-family: "Righteous", sans-serif;
+}
+
+body {
+    color: ghostwhite;
+    background-color: #1b1b1b;
+}
+
+header {
+    background-color: black;
+    color: ghostwhite;
+    box-shadow: 0px 11px 15px 1px black;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+
+
+section {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.navbar-nav a {
+    font-family: "Righteous";
+    text-align: right;
+    font-size: 1.07rem;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: ghostwhite;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: darkgrey;
+}
+
+.div {
+    color: ghostwhite;
+}
+
+.parallax {
+    background-image: url("../img/arka.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arkasiyah {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.anares {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.giris {}
+
+.logo {
+    top: 12%;
+    width: 38%;
+    margin-left: -10rem;
+}
+
+.igec {
+    top: 72%;
+    right: 8%;
+}
+
+.igec h2 {
+    font-size: 5rem;
+}
+
+.galeri {
+    margin: 0 auto;
+}
+
+.galeri h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pbaslik {
+    font-size: 1.6rem;
+    padding: 0 4rem;
+}
+
+.pbaslik h1 {
+    margin-bottom: 2rem;
+}
+
+.partiform {
+    border-radius: 1rem;
+    padding: 1.5rem 5rem;
+    margin: 2rem;
+    margin-top: 0.5rem;
+}
+
+.partiform input,
+.partiform textarea {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: none;
+    border-bottom: 2px solid #383838;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.partiform button {
+
+    margin-top: 1rem;
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    background-color: #131313;
+    color: ghostwhite;
+    border: none;
+    border-radius: 5px;
+}
+
+.bkimiz h1 {
+    margin-bottom: 1rem;
+}
+
+.bkatil p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.bkatil a {
+    display: inline-block;
+    text-decoration: none;
+    color: ghostwhite;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 3rem 5rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+
+}
+
+.ikonlar {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.iletisim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    padding: 1rem 0;
+    background-color: black;
+    color: dimgrey;
+    font-family: 'Raleway', sans-serif !Important;
+}
+
+.foot .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleria{ width: 100%; height: 800px; background: #000 }
+
+
+@media all and (max-width:767px) {
+
+    section {
+        padding-top: 4.6rem !important;
+        padding-bottom: 1rem !important;
+    }
+        section:first-of-type {
+        padding-top: 2.5rem !important;
+        padding-bottom: 1rem !important;
+}
+    :target:before{
+        content: "";
+        display: block;
+        height: 5rem;
+        margin: -5rem 0 0;
+    }
+    .logo {
+        margin-left: 0rem;
+        top: 12%;
+        width: 38%;
+    }
+
+    .igec {
+        top: 75%;
+        right: 8%;
+    }
+
+    .igec h2 {
+        font-size: 2rem;
+    }
+
+    .pbaslik {
+        margin-top: 2rem !Important;
+        padding: 0 2rem;
+    }
+
+    .partiform {
+        margin: 1rem 2rem;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .bkatil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 1rem;
+
+    }
+
+    .fb {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ikonlar {
+        width: 90% !important;
+    }
+
+    .iletisim {
+        margin-right: 0;
+        justify-content: center;
+    }
+    .galleria{ height: 400px; }
+
+}
+@media (min-width:768px) and (max-width:1800px) {
+
+    section {
+        padding-top: 4.6rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .logo {
+        margin-left: 0rem;
+        top: 12%;
+        width: 38%;
+    }
+    .igec {
+        top: 75%;
+        right: 8%;
+    }
+
+    .igec h2 {
+        font-size: 4rem;
+    }
+
+    .pbaslik {
+        margin-top: 2rem !Important;
+        padding: 0 2rem;
+    }
+
+    .partiform {
+        margin: 1rem 2rem;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .bkatil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 1rem;
+
+    }
+
+    .fb {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ikonlar {
+        width: 90% !important;
+    }
+
+    .iletisim {
+        margin-right: 0;
+        justify-content: center;
+    }
+    .galleria{ height: 600px; }
+
+}
+
